@@ -1,0 +1,36 @@
+.table3-container {
+  text-align: center;
+  background-color: white;
+  padding: 20px;
+  border: 1px solid black;
+  width: fit-content;
+  margin: 0 auto;
+}
+
+.table3-container h2 {
+  padding-bottom: 10px;
+  color: white;
+  text-transform: uppercase;
+  font-weight: 700;
+  width: 100%;
+  background-color: darkcyan;
+  padding: 10px;
+}
+
+.table3 {
+  caption-side: bottom;
+  border-collapse: collapse;
+  text-wrap: nowrap;
+  white-space-collapse: preserve;
+}
+
+.table3 thead th,
+.table3 tbody td {
+  padding: 20px;
+}
+
+.table3 thead th,
+.table3 tbody th,
+.table3 tbody td {
+  border: 1px solid black;
+}
